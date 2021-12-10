@@ -1,7 +1,7 @@
 <?php include_once "head.php"; ?>
 <body>
     <div class = "outer">
-        <?php include_once "header.php";?>
+        <?php include_once "main_header.php";?>
         <div class = "inner">
             <div class ="textarea">
                 <p class ="text">

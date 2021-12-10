@@ -12,13 +12,16 @@ body{
   justify-content: center;
   min-height: 100vh;
   background:black;
-  /* padding: 0 10px; */
+  padding: 0 10px;
   border-style: solid;
   border-color: cyan;
   border-radius:16px;
   
 }
 .wrapper{
+  margin-top:5%;
+  margin-bottom:5%;
+  margin-left: 35%;
   background: #fff;
   max-width: 450px;
   width: 100%;
@@ -94,11 +97,13 @@ body{
 }
 /* Index  */
 .outer{
+  width: 100%;
   display: inline;
   justify-content: center;
 }
 .inner{
   margin-left: 18%;
+  margin-bottom: 0;
   max-width: 60%;
   width: 100%;
   display: flex;
@@ -106,7 +111,7 @@ body{
 }
 .images{
   margin-left: 10%;
-  padding-top: 15%;
+  padding-top: 10%;
 }
 .icon{
   width: 100%;
@@ -115,7 +120,10 @@ body{
   display: inline-flex;
   justify-content: center;
   max-width: 60%;
-  margin: 10%;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
   margin-right: 9%;
   border-radius: 8px;
   border-style: solid;

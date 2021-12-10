@@ -5,8 +5,10 @@
     header("location: login.php");
   }
 ?>
-<?php include_once "header.php"; ?>
+
+<?php include_once "head.php"; ?>
 <body>
+  <?php include_once "header.php"; ?>
   <div class="wrapper">
     <section class="chat-area">
       <header>
@@ -36,7 +38,7 @@
       </form>
     </section>
   </div>
-
+  <?php include_once "footer.php";?>
   <script src="javascript/chat.js"></script>
 
 </body>
